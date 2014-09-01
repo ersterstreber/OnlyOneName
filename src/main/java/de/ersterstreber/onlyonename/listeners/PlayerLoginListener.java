@@ -17,7 +17,7 @@ public class PlayerLoginListener implements Listener {
 				e.allow();
 				return;
 			} else {
-				e.disallow(Result.KICK_OTHER, "§cDu spielst bereits über einen anderen Namen!");
+				e.disallow(Result.KICK_OTHER, "§cYou already play on this server with another name!");
 				return;
 			}
 		} else {
